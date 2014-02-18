@@ -1,0 +1,134 @@
+.TourTip {
+	display: none;
+	z-index: 19997;
+}
+
+	.TourTip p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.TourTip .TourTipCloseIcon {
+		background: url(../img/tourtip-close.png) center center no-repeat;
+		width: 15px;
+		height: 15px;
+		top: 8px;
+		right: 8px;
+		position: absolute;
+		cursor: pointer;
+		z-index: 19998;
+	}
+
+	.TourTip .TourTipContent {
+		background-color: #ffe;
+		color: #000;
+		padding: 10px;
+		border-radius: 5px;
+		min-width: 100px;
+		min-height: 50px;
+		border: 1px solid #98005e;
+		box-shadow: 0px 0px 2px 3px #ffe;
+	}
+
+	.TourTip .TourTipExternalContent {
+		display: inline-block;
+	}
+
+	.TourTip .TourTipButtonsHolder {
+		text-align: right;
+	}
+
+	.TourTip .TourTipButton {
+		color: #fff;
+		background-color: #98005e;
+		padding: 3px 18px;
+		border-radius: 3px;
+		border: 1px solid #fff;
+		box-shadow: 0 0 2px #98005e;
+		margin: 10px 0 0 4px;
+	}
+
+		.TourTip .TourTipButton:hover {
+			color: #ff8;
+			background-color: #b8007e;
+		}
+
+	.TourTip .TourTipNextButton {
+	}
+
+	.TourTip .TourTipPreviousButton {
+	}
+
+	.TourTip .TourTipCloseButton {
+	}
+
+	.TourTip .TourTipDesc {
+		font: normal 14px arial;
+	}
+
+	.TourTip .TourTipTitle {
+		font: bold 14px arial;
+		margin-bottom: 10px;
+	}
+
+	.TourTip .TourTipNub {
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		position: absolute;
+		z-index: 19996;
+	}
+
+	.TourTip .TourTipLeftNub {
+		top: 20px;
+		right: -20px;
+		border-left-color: #ffe;
+	}
+
+	.TourTip .TourTipTopNub {
+		bottom: -20px;
+		left: 20px;
+		border-top-color: #ffe;
+	}
+
+	.TourTip .TourTipRightNub {
+		top: 20px;
+		left: -20px;
+		border-right-color: #ffe;
+	}
+
+	.TourTip .TourTipBottomNub {
+		top: -20px;
+		left: 20px;
+		border-bottom-color: #ffe;
+	}
+
+.FreeTourTip {
+}
+
+	.FreeTourTip .FreeContentTourTip {
+	}
+
+.TourTipCover {
+	background-color: #fff;
+	box-shadow: 0 0 30px #fff;
+	z-index: 19996;
+	display: none;
+	opacity: .6;
+}
+
+.TourTipDisabledArea {
+	z-index: 19995;
+	background-color: rgba(128, 128, 128, .5);
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.TourTipTransitOpacity {
+	-moz-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s;
+}
