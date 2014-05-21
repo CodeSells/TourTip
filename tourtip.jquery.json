@@ -7,9 +7,11 @@
         "tip",
 		"overlay",
 		"help",
-		"guide"
+		"guide",
+		"ui",
+		"jquery"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": {
         "name": "Mehrdad Noroozi Eghbali"
     },
