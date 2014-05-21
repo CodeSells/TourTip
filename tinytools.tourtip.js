@@ -1,5 +1,5 @@
 /*!
-	TourTip 1.0.5 - 2014-05-21
+	TourTip 1.0.6 - 2014-05-21
 	jQuery Help and Tour Layout
 	(c) 2014, http://tinytools.codesells.com
 	license: http://www.opensource.org/licenses/mit-license.php
